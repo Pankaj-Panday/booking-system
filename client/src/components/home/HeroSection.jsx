@@ -2,12 +2,9 @@ import React from "react";
 import Container from "../common/Container";
 import { Link } from "react-router";
 
-// flex-grow-0 py-20 font-body sm:basis-3/5 xl:basis-5/12
-// relative h-[100dvh] max-h-[600px] min-h-[400px] bg-secondary-50 bg-cover bg-right-top bg-no-repeat max-xl:bg-[url('images/hero_bg.jpg')]
-
 export default function HeroSection() {
   return (
-    <section className="relative h-[100dvh] max-h-[600px] min-h-[400px] bg-secondary-50 bg-cover bg-right-top bg-no-repeat max-xl:bg-[url('images/hero_bg.jpg')] max-xl:before:absolute max-xl:before:inset-0 max-xl:before:z-0 max-xl:before:bg-black/40">
+    <section className="relative h-[100dvh] max-h-[600px] min-h-[400px] bg-secondary-50 bg-cover bg-right-top bg-no-repeat max-xl:bg-[url('/images/hero_bg.jpg')] max-xl:before:absolute max-xl:before:inset-0 max-xl:before:z-0 max-xl:before:bg-black/40">
       <Container className="flex h-full items-center justify-between">
         <div className="relative flex-grow-0 bg-secondary-50 p-4 font-body sm:basis-3/5 sm:py-10 lg:py-16 xl:basis-5/12">
           <h1 className="font-body text-6xl font-extrabold uppercase tracking-tight text-primary-500">
