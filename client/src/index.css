@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .primary-btn {
+    @apply inline-block bg-primary-600 px-3 py-2 text-center font-body text-lg font-medium text-white;
+  }
+  .secondary-btn {
+    @apply inline-block border-2 border-secondary-500 px-3 py-2 text-center font-body text-lg font-medium text-secondary-500;
+  }
+}
+
+.my-custom-swiper .swiper-pagination {
+  position: unset;
+  margin-top: 20px;
+}
+
+.my-custom-swiper .swiper-pagination-bullet {
+  background-color: theme(colors.secondary.400);
+}
