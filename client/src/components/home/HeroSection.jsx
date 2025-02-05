@@ -19,7 +19,7 @@ export default function HeroSection() {
             Book your appointment
           </Link>
         </div>
-        <div className="absolute bottom-0 right-0 top-0 w-1/2 flex-1 bg-[url('images/hero_bg.jpg')] bg-cover bg-right-top bg-no-repeat max-xl:hidden"></div>
+        <div className="absolute bottom-0 right-0 top-0 w-1/2 flex-1 bg-[url('/images/hero_bg.jpg')] bg-cover bg-right-top bg-no-repeat max-xl:hidden"></div>
       </Container>
     </section>
   );
